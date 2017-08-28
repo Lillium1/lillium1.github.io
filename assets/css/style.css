@@ -74,7 +74,7 @@ a {
   color: white; 
 }
 .sidenav .nav-section li:hover {
-  background-color: #ff6c61; 
+  background-color: #9e9e9e; 
 }
 .sidenav .nav-section li:hover i {
   color: white; 
@@ -153,9 +153,13 @@ a {
 
 /*** FIN HERRAMIENTAS ***/
 
+.cv_ {
+  border-bottom: 1px solid #ff8a80;
+}
+
 .cajita {
   margin-top: 100px;
-  margin-bottom: 121px;
+  margin-bottom: 160px;
 }
 
 .fondo-sobreMi {
