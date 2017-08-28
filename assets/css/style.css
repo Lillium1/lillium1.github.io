@@ -1,0 +1,188 @@
+body {
+  top: 0;
+  left: 0; 
+}
+
+h1, h2, h3, h4 {
+  font-family: "Arapey", serif;
+  font-weight: 400;
+}
+
+h5, h6 {
+  font-family: "Arima Madurai", cursive; 
+}
+
+p, span {
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+span {
+  font-size: 10px;
+}
+
+i {
+  list-style: none;
+  display: inline-block; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+#menu {
+  z-index: 1;
+  position: fixed;
+  height: inherit;
+  width: 60px;
+  height: 100%;
+  top: 0;
+}
+
+.sidenav {
+  position: fixed;
+  z-index: 5; 
+}
+.sidenav .nav-menu {
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+  width: 60px;
+  padding-left: 19px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid red; 
+}
+.sidenav #closeNav .fa-times {
+  display: none; 
+}
+.sidenav .nav-section {
+  width: 60px;
+  margin-top: 0px;
+  display: none; 
+}
+.sidenav .nav-section li {
+  list-style: none;
+  border-bottom: 1px solid #EDEBE6;
+  background-color: #ff947f;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+.sidenav .nav-section li i {
+  color: white; 
+}
+.sidenav .nav-section li:hover {
+  background-color: #ff6c61; 
+}
+.sidenav .nav-section li:hover i {
+  color: white; 
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.intro {
+  margin-top: 10vh;
+}
+
+.contenedor {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.pusheo {
+  margin-left: 120px;
+}
+
+.presentacion {
+  margin-bottom: 50px;
+}
+
+.space {
+  padding-top: 80px;
+}
+
+.space2 {
+  padding-top: 200px;
+}
+
+.linea {
+  border-bottom: 1px solid #ff8a80;
+}
+
+/*--------- HERRAMIENTAS ------------*/
+
+.herramientas {
+  margin-bottom: 100px;
+}
+
+.subtitulo>h5{
+  border-top: 1px solid #ff8a80;
+  border-bottom: 1px solid #ff8a80;
+  padding: 10px 0;
+  letter-spacing: 5px;
+}
+
+.icono {
+  font-size: 40px;
+}
+
+.materialize img {
+  width: 60px;
+}
+
+.npm img {
+  width: 60px;
+  padding-bottom: 4px;
+} 
+
+.indesign img {
+  width: 38px;
+} 
+
+.bootstrap>i {
+  font-size: 35px;
+  padding-bottom: 7px;
+}
+
+.logo-iconos {
+  margin-top: 150px;
+}
+
+/*** FIN HERRAMIENTAS ***/
+
+.fondo-sobreMi {
+  background-image: url(../img/opc2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.fondo-index {
+  background-image: url(../img/fondo-index.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.linea-down {
+  border-bottom: 1px solid #9e9e9e;
+  margin-bottom: 0px;
+}
+
+.barra>p {
+  border-left: 1px solid #9e9e9e;
+  padding-left: 25px;
+}
+
+.row.contacto-row {
+  margin-bottom: 0px;
+}
+
+.contenido {
+  display: none;
+}
