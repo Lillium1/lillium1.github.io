@@ -153,6 +153,11 @@ a {
 
 /*** FIN HERRAMIENTAS ***/
 
+.cajita {
+  margin-top: 100px;
+  margin-bottom: 121px;
+}
+
 .fondo-sobreMi {
   background-image: url(../img/opc2.jpg);
   background-attachment: fixed;
@@ -167,6 +172,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  background-position: center;
 }
 
 .linea-down {
